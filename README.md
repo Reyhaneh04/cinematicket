@@ -155,6 +155,7 @@ cinematicket/
 ├── artisan
 ├── composer.json
 └── package.json
+```
 
 ##How to Run
 ###Requirements
@@ -165,7 +166,7 @@ Laravel
 WAMP or XAMPP
 ###Installation
 1.Clone the repository:
-   git clone https://github.com/Reyhaneh04/cinematicket.git
+   git clone Reyhaneh04/cinematicket.git
 2.Enter the project directory:
    cd cinematicket
 3.Install PHP dependencies:
@@ -225,3 +226,7 @@ WAMP or XAMPP
 ### Register
 
 ![Register](screenshots/register.png)
+
+ننن
+عاد
+
