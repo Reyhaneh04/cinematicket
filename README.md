@@ -173,23 +173,23 @@ cinematicket/
    ```bash
    git clone https://github.com/Reyhaneh04/cinematicket.git
 
-Enter the project directory:
+2.Enter the project directory:
 
 cd cinematicket
 
-Install PHP dependencies:
+3.Install PHP dependencies:
 
 composer install
 
-Create the environment file:
+4.Create the environment file:
 
 cp .env.example .env
 
-Generate the Laravel application key:
+5.Generate the Laravel application key:
 
 php artisan key:generate
 
-Configure the database settings in .env:
+6.Configure the database settings in .env:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -198,18 +198,18 @@ DB_DATABASE=cinematicket
 DB_USERNAME=root
 DB_PASSWORD=
 
-Run migrations:
+7.Run migrations:
 
 php artisan migrate
 
-Run seeders:
+8.Run seeders:
 
 php artisan db:seed
 
-Start the Laravel development server:
+9.Start the Laravel development server:
 
 php artisan serve
-Open the application in your browser:
+10.Open the application in your browser:
 http://127.0.0.1:8000
 
 ## Screenshots
