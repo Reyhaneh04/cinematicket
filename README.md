@@ -190,9 +190,9 @@ WAMP or XAMPP
 10.Open the application in your browser:
   http://127.0.0.1:8000
 
-## Screenshots
+Screenshots
 
-### Home Page
+Home Page
 ![Home Page](screenshots/home_1.png)
 
 ### Products Page
