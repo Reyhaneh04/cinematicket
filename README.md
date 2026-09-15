@@ -190,27 +190,38 @@ WAMP or XAMPP
 10.Open the application in your browser:
   http://127.0.0.1:8000
 
-Screenshots
+## Screenshots
 
-Home Page
+### Home Page
+
 ![Home Page](screenshots/home_1.png)
 
-### Products Page
-![Products Page](screenshots/product_1.png)
-![Products Page](screenshots/product_2.png)
+![Home Page](screenshots/home_2.png)
 
-### Product Details
-![Product Details](screenshots/product-detail.png)
+![Home Page](screenshots/home_3.png)
 
-### Login Page
-![Login Page](screenshots/login.png)
+### Movies
 
-### Register Page
-![Register Page](screenshots/register.png)
+![Movies](screenshots/movies_1.png)
 
-### Order Page
-![Order Page](screenshots/order.png)
+![Movies](screenshots/movies_2.png)
 
-### Admin Panel
-![Admin Panel](screenshots/admin-panel_1.png)
-![Admin Panel](screenshots/admin-panel_2.png)
+### Movie Details
+
+![Movie Details](screenshots/movie-details_1.png)
+
+![Movie Details](screenshots/movie-details_2.png)
+
+### Booking
+
+![Booking](screenshots/booking_1.png)
+
+![Booking](screenshots/booking_2.png)
+
+### Login
+
+![Login](screenshots/login.png)
+
+### Register
+
+![Register](screenshots/register.png)
