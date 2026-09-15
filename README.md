@@ -190,7 +190,27 @@ WAMP or XAMPP
 10.Open the application in your browser:
   http://127.0.0.1:8000
 
-##Screenshots
+## Screenshots
 
-###Home Page
-[!Home Page  ](screenshots/home_1.png)
+### Home Page
+![Home Page](screenshots/home_1.png)
+
+### Products Page
+![Products Page](screenshots/product_1.png)
+![Products Page](screenshots/product_2.png)
+
+### Product Details
+![Product Details](screenshots/product-detail.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Register Page
+![Register Page](screenshots/register.png)
+
+### Order Page
+![Order Page](screenshots/order.png)
+
+### Admin Panel
+![Admin Panel](screenshots/admin-panel_1.png)
+![Admin Panel](screenshots/admin-panel_2.png)
