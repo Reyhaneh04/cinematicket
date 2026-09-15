@@ -64,3 +64,190 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+# CinemaTicket
+
+A web-based cinema ticket reservation system developed with Laravel and MySQL.
+
+CinemaTicket allows users to browse movies, filter movies by genre, select a city and cinema, view available screening dates and times, choose seats, and reserve cinema tickets.
+
+## Features
+
+- User registration and login
+- Browse available movies
+- Filter movies by genre
+- Search for cities and cinemas
+- Select a city and cinema
+- View movie screening dates and times
+- Select available seats
+- Reserve cinema tickets
+- Generate a reservation receipt with a tracking code
+- View previous purchases
+- Edit or delete user account information
+- Admin panel for managing system data
+
+## Technologies
+
+- PHP
+- Laravel 11
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- Blade
+- Eloquent ORM
+- Bootstrap
+- jQuery
+
+## Architecture
+
+The project follows the MVC (Model-View-Controller) architecture provided by Laravel.
+
+- **Models:** Handle database entities and relationships.
+- **Views:** Blade templates are used to display the user interface.
+- **Controllers:** Handle application logic and user requests.
+
+## Database
+
+MySQL is used as the database management system.
+
+The project uses Laravel Migrations and Seeders to create database tables and insert initial data.
+
+Main entities include:
+
+- Users
+- Cities
+- Cinemas
+- Movies
+- Showtimes
+- Seats
+- Reservations
+
+## Security
+
+The project uses Laravel's built-in security features, including:
+
+- Password hashing
+- Authentication
+- Form validation
+- CSRF protection
+
+## Project Structure
+
+```text
+cinematicket/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── public/
+├── resources/
+│   └── views/
+├── routes/
+├── storage/
+├── tests/
+├── artisan
+├── composer.json
+└── package.json
+```
+
+## How to Run
+
+### Requirements
+
+- PHP
+- Composer
+- MySQL
+- Laravel
+- WAMP or XAMPP
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Reyhaneh04/cinematicket.git
+
+2.Enter the project directory:
+
+cd cinematicket
+
+3.Install PHP dependencies:
+
+composer install
+
+4.Create the environment file:
+
+cp .env.example .env
+
+5.Generate the Laravel application key:
+
+php artisan key:generate
+
+6.Configure the database settings in .env:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=cinematicket
+DB_USERNAME=root
+DB_PASSWORD=
+
+7.Run migrations:
+
+php artisan migrate
+
+8.Run seeders:
+
+php artisan db:seed
+
+9.Start the Laravel development server:
+
+php artisan serve
+10.Open the application in your browser:
+http://127.0.0.1:8000
+
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/home_1.png)
+
+![Home Page](screenshots/home_2.png)
+
+![Home Page](screenshots/home_3.png)
+
+### Movies
+
+![Movies](screenshots/movies_1.png)
+
+![Movies](screenshots/movies_2.png)
+
+### Movie Details
+
+![Movie Details](screenshots/movie-details_1.png)
+
+![Movie Details](screenshots/movie-details_2.png)
+
+### Booking
+
+![Booking](screenshots/booking_1.png)
+
+![Booking](screenshots/booking_2.png)
+
+### Login
+
+![Login](screenshots/login.png)
+
+### Register
+
+![Register](screenshots/register.png)
+
+ننن
+عاد
+
