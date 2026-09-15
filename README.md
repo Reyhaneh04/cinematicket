@@ -157,39 +157,60 @@ cinematicket/
 └── package.json
 ```
 
-##How to Run
-###Requirements
-PHP
-Composer
-MySQL
-Laravel
-WAMP or XAMPP
-###Installation
-1.Clone the repository:
-   git clone Reyhaneh04/cinematicket.git
-2.Enter the project directory:
-   cd cinematicket
-3.Install PHP dependencies:
-   composer install
-4.Create the environment file:
-  cp .env.example .env
-5.Generate the Laravel application key:
-  php artisan key:generate
-6.Configure the database settings in .env:
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=cinematicket
-  DB_USERNAME=root
-  DB_PASSWORD=
-7.Run migrations:
-  php artisan migrate
-8.Run seeders:
- php artisan db:seed
-9.Start the Laravel development server:
-  php artisan serve
-10.Open the application in your browser:
-  http://127.0.0.1:8000
+## How to Run
+
+### Requirements
+
+- PHP
+- Composer
+- MySQL
+- Laravel
+- WAMP or XAMPP
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Reyhaneh04/cinematicket.git
+
+Enter the project directory:
+
+cd cinematicket
+
+Install PHP dependencies:
+
+composer install
+
+Create the environment file:
+
+cp .env.example .env
+
+Generate the Laravel application key:
+
+php artisan key:generate
+
+Configure the database settings in .env:
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=cinematicket
+DB_USERNAME=root
+DB_PASSWORD=
+
+Run migrations:
+
+php artisan migrate
+
+Run seeders:
+
+php artisan db:seed
+
+Start the Laravel development server:
+
+php artisan serve
+Open the application in your browser:
+http://127.0.0.1:8000
 
 ## Screenshots
 
