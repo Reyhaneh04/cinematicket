@@ -170,49 +170,50 @@ cinematicket/
 ### Installation
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/Reyhaneh04/cinematicket.git
-
+```
 2.Enter the project directory:
-   ```bash
+   ```
    cd cinematicket
-
+```
 3.Install PHP dependencies:
-   ```bash
+   ```
    composer install
-
+```
 4.Create the environment file:
-   ```bash
+   ```
    cp .env.example .env
-
+```
 5.Generate the Laravel application key:
-   ```bash
+   ```
    php artisan key:generate
-
+```
 6.Configure the database settings in .env:
-   ```bash
+   ```
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
    DB_PORT=3306
    DB_DATABASE=cinematicket
    DB_USERNAME=root
    DB_PASSWORD=
-
+```
 7.Run migrations:
-   ```bash
+   ```
    php artisan migrate
-
+```
 8.Run seeders:
-   ```bash
+   ```
    php artisan db:seed
-
+```
 9.Start the Laravel development server:
-   ```bash
+   ```
    php artisan serve
+   ```
 10.Open the application in your browser:
-   ```bash
+   ```
    http://127.0.0.1:8000
-
+```
 ## Screenshots
 
 ### Home Page
