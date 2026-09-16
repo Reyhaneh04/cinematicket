@@ -173,13 +173,13 @@ cinematicket/
    
    ```
    git clone https://github.com/Reyhaneh04/cinematicket.git
-```
+   ```
 
 2.Enter the project directory:
 
    ```
    cd cinematicket
-```
+   ```
 
 3.Install PHP dependencies:
 
